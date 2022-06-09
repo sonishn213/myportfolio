@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  html {
+    font-family: "Rubik", sans-serif;
+  }
+  h1 {
+    @apply text-6xl text-s-dark-blue font-bold;
+  }
+  h2 {
+    @apply text-4xl text-s-dark-blue font-bold;
+  }
+  h3 {
+    @apply text-3xl text-s-dark-blue font-semibold;
+  }
+  h4 {
+    @apply text-xl text-s-dark-blue font-semibold;
+  }
+}
+@layer components {
+  .fluid-container {
+    @apply px-6 lg:container lg:mx-auto;
+  }
+}
