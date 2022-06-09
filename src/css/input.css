@@ -6,20 +6,26 @@
     font-family: "Rubik", sans-serif;
   }
   h1 {
-    @apply text-6xl text-s-dark-blue font-bold;
+    @apply text-6xl text-s-dark-blue font-medium;
   }
   h2 {
-    @apply text-4xl text-s-dark-blue font-bold;
+    @apply text-4xl text-s-dark-blue font-medium;
   }
   h3 {
-    @apply text-3xl text-s-dark-blue font-semibold;
+    @apply text-3xl text-s-dark-blue font-normal;
   }
   h4 {
-    @apply text-xl text-s-dark-blue font-semibold;
+    @apply text-xl text-s-dark-blue font-normal;
   }
 }
 @layer components {
   .fluid-container {
     @apply px-6 lg:container lg:mx-auto;
+  }
+  .heroSection {
+    background: url("/src/images/white-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }

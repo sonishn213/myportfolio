@@ -1,9 +1,14 @@
 import React from "react";
+import Navbar from "./Components/Navbar";
+import HeroSection from "./Components/HeroSection";
+import SkillsSection from "./Components/SkillsSection";
 function App() {
   return (
-    <div className="">
-      <h1>hello</h1>
-    </div>
+    <main>
+      <Navbar />
+      <HeroSection />
+      <SkillsSection />
+    </main>
   );
 }
 
