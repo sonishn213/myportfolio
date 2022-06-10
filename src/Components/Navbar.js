@@ -2,8 +2,8 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <section className="shadow-md">
-      <nav className="fluid-container flex space-x-10  text-lg  text-s-dark-blue cursor-pointer">
+    <section className="shadow-md fixed w-full bg-white  z-10">
+      <nav className="fluid-container flex space-x-10  text-lg  text-s-dark-blue cursor-pointer  w-full">
         <p className="text-s-orange font-medium border-b-4 border-b-s-orange py-6">
           Home
         </p>

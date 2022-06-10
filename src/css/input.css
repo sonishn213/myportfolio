@@ -12,7 +12,7 @@
     @apply text-4xl text-s-dark-blue font-medium;
   }
   h3 {
-    @apply text-3xl text-s-dark-blue font-normal;
+    @apply text-3xl text-s-dark-blue font-medium;
   }
   h4 {
     @apply text-xl text-s-dark-blue font-normal;
@@ -27,5 +27,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
+  }
+  .contactSection {
+    background: url("/src/images/white-bg-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
   }
 }

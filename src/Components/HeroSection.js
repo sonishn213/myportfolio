@@ -4,7 +4,7 @@ import Button from "./Button";
 const HeroSection = () => {
   return (
     <section className="heroSection">
-      <div className="fluid-container py-28 relative">
+      <div className="fluid-container py-28 pt-36 relative text-center">
         <h1 className="leading-tight mb-16 ">
           Hello, I’m <span className="text-s-orange">Shwanees Gowda</span>
           <br /> I’m a Frontend Developer

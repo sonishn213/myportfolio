@@ -1,13 +1,12 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
-import HeroSection from "./Components/HeroSection";
-import SkillsSection from "./Components/SkillsSection";
+import { Outlet } from "react-router-dom";
+
 function App() {
   return (
     <main>
       <Navbar />
-      <HeroSection />
-      <SkillsSection />
+      <Outlet />
     </main>
   );
 }
