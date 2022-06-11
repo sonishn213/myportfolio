@@ -6,16 +6,28 @@
     font-family: "Rubik", sans-serif;
   }
   h1 {
-    @apply text-6xl text-s-dark-blue font-medium;
+    @apply lg:text-6xl text-5xl text-s-dark-blue font-medium;
   }
   h2 {
-    @apply text-4xl text-s-dark-blue font-medium;
+    @apply lg:text-4xl text-2xl  text-s-dark-blue font-medium;
   }
   h3 {
-    @apply text-3xl text-s-dark-blue font-medium;
+    @apply lg:text-3xl text-xl text-s-dark-blue font-medium;
   }
   h4 {
-    @apply text-xl text-s-dark-blue font-normal;
+    @apply lg:text-xl text-xl text-s-dark-blue font-normal;
+  }
+  .scrollContainer::-webkit-scrollbar {
+    width: 1em;
+  }
+
+  .scrollContainer::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .scrollContainer::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
   }
 }
 @layer components {
@@ -42,5 +54,10 @@
   }
   .enable {
     opacity: 1;
+  }
+}
+@layer utilities {
+  .show {
+    margin-right: 0;
   }
 }

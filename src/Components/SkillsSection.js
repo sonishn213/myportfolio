@@ -14,7 +14,7 @@ import gitImg from "../images/git-alt-brands.svg";
 
 const SkillsSection = () => {
   return (
-    <section className="bg-s-light-grey">
+    <section className="bg-s-light-grey" id="skills">
       <div className="fluid-container py-28">
         <Title value="Skills" className="mb-16" />
         <div className="grid grid-cols-5  gap-6 gap-y-10  items-center justify-items-center text-5xl max-w-xl mx-auto text-white">

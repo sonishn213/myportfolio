@@ -3,7 +3,7 @@ import Title from "./Title";
 import { FaLinkedin } from "react-icons/fa";
 const Contact = () => {
   return (
-    <section className="bg2 bg-paralax">
+    <section className="bg2 bg-paralax" id="contact">
       <div className="fluid-container  py-28">
         <Title value="Contact" className="mb-16" />
         <div className="text-center text-2xl space-y-4 text-s-dark-blue tracking-wider">

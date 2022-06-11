@@ -6,7 +6,7 @@ const Button = ({ color, text, link }) => {
   let WhiteBtnStyle =
     "uppercase bg-white text-lg  text-s-dark py-3 px-7 rounded-full shadow-lg hover:bg-s-light-grey active:shadow-none";
   return (
-    <a href={link} target="_blank">
+    <a href={link} target="_blank" className="inline-block">
       <button className={color === "blue" ? BlueBtnStyle : WhiteBtnStyle}>
         {text}
       </button>

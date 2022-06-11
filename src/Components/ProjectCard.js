@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 const ProjectCard = ({ data }) => {
-  console.log(data.id);
   return (
     <div className="rounded-2xl overflow-x-hidden max-w-[350px] w-72 shadow-lg flex-shrink-0  relative">
       <div className="max-w-full">

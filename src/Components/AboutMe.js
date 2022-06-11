@@ -2,7 +2,7 @@ import React from "react";
 import Title from "./Title";
 const AboutMe = () => {
   return (
-    <section className="bg-s-light-grey">
+    <section className="bg-s-light-grey" id="aboutme">
       <div className="fluid-container py-28">
         <div className="max-w-4xl mx-auto">
           <Title value="About me" className="mb-16" />
