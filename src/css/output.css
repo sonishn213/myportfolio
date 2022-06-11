@@ -558,6 +558,10 @@ h4 {
   background-attachment: fixed;
 }
 
+.static {
+  position: static;
+}
+
 .fixed {
   position: fixed;
 }
@@ -593,6 +597,10 @@ h4 {
 
 .mb-10 {
   margin-bottom: 2.5rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
 }
 
 .inline {

@@ -1,15 +1,15 @@
 import React from "react";
 import Title from "./Title";
 import ProjectSlider from "./ProjectSlider";
-import { slider1 } from "../data";
+import sliderData from "../data";
 const ProjectsSection = () => {
-  console.log(slider1);
+  console.log(sliderData);
   return (
     <section>
       <div className="fluid-container py-28">
         <Title value="Projects" className="mb-16" />
-        <ProjectSlider title="css/scss/javascript" data={slider1} />
-        <ProjectSlider title="tailwindcss/reactjs" data={slider1} />
+        <ProjectSlider title="css/scss/javascript" data={sliderData} />
+        <ProjectSlider title="tailwindcss/reactjs" data={sliderData} />
       </div>
     </section>
   );
