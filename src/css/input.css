@@ -22,18 +22,25 @@
   .fluid-container {
     @apply px-6 lg:container lg:mx-auto;
   }
-  .heroSection {
+  .bg1 {
     background: url("/src/images/white-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
   }
-  .contactSection {
+  .bg2 {
     background: url("/src/images/white-bg-3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+  }
+  .bg-paralax {
     background-attachment: fixed;
+  }
+  .disable {
+    opacity: 0.5;
+  }
+  .enable {
+    opacity: 1;
   }
 }
