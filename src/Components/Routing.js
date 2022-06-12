@@ -1,14 +1,17 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import App from "../App";
+import Layout1 from "../Layout1";
+import Layout2 from "../Layout2";
 import Home from "./Home";
 import ViewProject from "./VIewProjectPage/ViewProject";
 const Routing = () => {
   return (
     <Routes>
-      <Route path="/" element={<App />}>
+      <Route path="/" element={<Layout1 />}>
         <Route index element={<Home />} />
-        <Route path=":id" element={<ViewProject />} />
+      </Route>
+      <Route path=":id" element={<Layout2 />}>
+        <Route index element={<ViewProject />} />
       </Route>
     </Routes>
   );

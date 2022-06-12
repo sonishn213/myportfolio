@@ -6,16 +6,16 @@
     font-family: "Rubik", sans-serif;
   }
   h1 {
-    @apply lg:text-6xl text-5xl text-s-dark-blue font-medium;
+    @apply md:text-6xl text-5xl text-s-dark-blue font-medium;
   }
   h2 {
-    @apply lg:text-4xl text-2xl  text-s-dark-blue font-medium;
+    @apply md:text-4xl text-2xl  text-s-dark-blue font-medium;
   }
   h3 {
-    @apply lg:text-3xl text-xl text-s-dark-blue font-medium;
+    @apply md:text-3xl text-xl text-s-dark-blue font-medium;
   }
   h4 {
-    @apply lg:text-xl text-xl text-s-dark-blue font-normal;
+    @apply md:text-xl text-xl text-s-dark-blue font-normal;
   }
   .scrollContainer::-webkit-scrollbar {
     width: 1em;
@@ -32,7 +32,7 @@
 }
 @layer components {
   .fluid-container {
-    @apply px-6 lg:container lg:mx-auto;
+    @apply px-6 md:container md:mx-auto;
   }
   .bg1 {
     background: url("/src/images/white-bg.jpg");

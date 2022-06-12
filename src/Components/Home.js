@@ -13,7 +13,11 @@ function Home() {
   useEffect(() => {
     // if not a hash link, scroll to top
     if (hash === "") {
-      window.scrollTo(0, 0);
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth",
+      });
     }
     // else scroll to id
     else {
@@ -21,7 +25,7 @@ function Home() {
         const id = hash.replace("#", "");
         const element = document.getElementById(id);
         if (element) {
-          element.scrollIntoView();
+          element.scrollIntoView({ behavior: "smooth", block: "start" });
         }
       }, 0);
     }

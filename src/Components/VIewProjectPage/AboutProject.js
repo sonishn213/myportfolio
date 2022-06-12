@@ -5,7 +5,7 @@ const AboutProject = ({ data }) => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <section className="bg-s-light-grey">
+    <section className="bg-s-light-grey" id="aboutproject">
       <div className="fluid-container py-28">
         <div className="max-w-3xl mx-auto">
           <Title value="About project" className="mb-16" />

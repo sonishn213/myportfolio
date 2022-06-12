@@ -1,13 +1,18 @@
 import React from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
+
 const ProjectCard = ({ data }) => {
   return (
-    <div className="rounded-2xl overflow-x-hidden max-w-[350px] w-72 shadow-lg flex-shrink-0  relative">
-      <div className="max-w-full">
-        <img src={data.tmbImg} alt={data.projectName} />
+    <div className="rounded-2xl overflow-hidden w-72 outline-none shadow-md border-2 border-s-dark-grey flex-shrink-0  ">
+      <div className="w-auto h-64 bg-black  overflow-hidden  ">
+        <img
+          src={data.tmbImg}
+          alt={data.projectName}
+          className="w-auto min-h-full"
+        />
       </div>
       <div className="p-6">
-        <div className="flex flex-wrap space-x-2 mb-5">
+        <div className="flex flex-wrap space-x-2 mb-5 ">
           {data.langs.map((lang) => {
             if (lang.length <= 0) {
               return;

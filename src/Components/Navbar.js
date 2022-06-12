@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { IoMdMenu } from "react-icons/io";
-const Navbar = () => {
+const Navbar = ({ children }) => {
   // const styles = {
   //   color: "#FCA311",
   //   fontWeight: "500",
@@ -34,51 +34,20 @@ const Navbar = () => {
   return (
     <>
       <section className="shadow-md fixed w-full bg-white  z-10  md:block hidden">
+        {/* desktop navbar */}
         <nav className="fluid-container flex space-x-10  text-lg  text-s-dark-blue cursor-pointer  w-full">
-          <p className="py-6 active:text-s-dark-blue hover:text-s-orange">
-            <NavLink to="/">Home</NavLink>
-          </p>
-          <p className="py-6 active:text-s-dark-blue hover:text-s-orange">
-            <NavLink to="#skills">Skills</NavLink>
-          </p>
-          <p className="py-6 active:text-s-dark-blue hover:text-s-orange">
-            <NavLink to="#projects">Projects</NavLink>
-          </p>
-          <p className="py-6 active:text-s-dark-blue hover:text-s-orange">
-            <NavLink to="#aboutme">About me</NavLink>
-          </p>
-          <p className="py-6 active:text-s-dark-blue hover:text-s-orange">
-            <NavLink to="#contact">Contact</NavLink>
-          </p>
-          <p className="py-6 active:text-s-dark-blue hover:text-s-orange">
-            <NavLink to="/">Resume</NavLink>
-          </p>
+          {children}
         </nav>
       </section>
-      <section className="fixed bottom-0 z-30 right-0 ">
+      <section className="fixed bottom-0 z-30 right-0 md:hidden">
+        {/* mobile navigation */}
         <nav
           ref={mobileMenuRef}
           className="bg-white shadow-xl mb-16 p-4 pr-8 rounded-lg  "
         >
-          <p className="py-2 active:text-s-dark-blue hover:text-s-orange">
-            <NavLink to="/">Home</NavLink>
-          </p>
-          <p className="py-2 active:text-s-dark-blue hover:text-s-orange">
-            <NavLink to="#skills">Skills</NavLink>
-          </p>
-          <p className="py-2 active:text-s-dark-blue hover:text-s-orange">
-            <NavLink to="#projects">Projects</NavLink>
-          </p>
-          <p className="py-2 active:text-s-dark-blue hover:text-s-orange">
-            <NavLink to="#aboutme">About me</NavLink>
-          </p>
-          <p className="py-2 active:text-s-dark-blue hover:text-s-orange">
-            <NavLink to="#contact">Contact</NavLink>
-          </p>
-          <p className="py-2 active:text-s-dark-blue hover:text-s-orange">
-            <NavLink to="/">Resume</NavLink>
-          </p>
+          {children}
         </nav>
+        {/* mobile menu btn */}
         <div className="relative">
           <div
             onClick={toggleMenu}
@@ -93,5 +62,13 @@ const Navbar = () => {
     </>
   );
 };
-
+export const NavbarLink = ({ to, children }) => {
+  return (
+    <NavLink to={to}>
+      <p className="md:py-6 py-2 active:text-s-dark-blue hover:text-s-orange">
+        {children}
+      </p>
+    </NavLink>
+  );
+};
 export default Navbar;

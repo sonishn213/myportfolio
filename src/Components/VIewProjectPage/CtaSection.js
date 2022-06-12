@@ -8,7 +8,7 @@ const CtaSection = (data) => {
         <div className="text-center">
           <div className="space-x-4  ">
             <Button text="View Live" color="blue" link={data.liveLink} />
-            <Button text="View On Github" color="white" link={data.gitLink} />
+            <Button text="Github" color="white" link={data.gitLink} />
           </div>
         </div>
       </div>
