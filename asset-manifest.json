@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/myportfolio/static/css/main.bbab8670.css",
+    "main.js": "/myportfolio/static/js/main.05f34dc7.js",
+    "static/media/white-bg-3.jpg": "/myportfolio/static/media/white-bg-3.4d5f5fbea447ccb6e202.jpg",
+    "static/media/white-bg.jpg": "/myportfolio/static/media/white-bg.9db7b1865f952fe0c817.jpg",
+    "static/media/mysql.svg": "/myportfolio/static/media/mysql.db0acb8bc652c89cfd696c9945b9ebaf.svg",
+    "static/media/sass-brands.svg": "/myportfolio/static/media/sass-brands.a800510a8cd070b7397014394079a11b.svg",
+    "static/media/react-brands.svg": "/myportfolio/static/media/react-brands.e57eb04ccba439238006737599eb2774.svg",
+    "static/media/figma-brands.svg": "/myportfolio/static/media/figma-brands.b3e91e1aeff41152c3ee48ed47c155f7.svg",
+    "index.html": "/myportfolio/index.html",
+    "static/media/php-brands.svg": "/myportfolio/static/media/php-brands.e6b3f8db02f115eb877b0cf7377de48f.svg",
+    "static/media/js-square-brands.svg": "/myportfolio/static/media/js-square-brands.b1ce609c10e84e4fc5550d62eb034161.svg",
+    "static/media/git-alt-brands.svg": "/myportfolio/static/media/git-alt-brands.dfce1de652e100cdafc3cf780b10770f.svg",
+    "static/media/tailwind-css.svg": "/myportfolio/static/media/tailwind-css.a4916d90054de8c351b09c3fe3bc60f0.svg",
+    "static/media/css3-alt-brands.svg": "/myportfolio/static/media/css3-alt-brands.14aafaaf0e91de52e585e16052cbc749.svg",
+    "static/media/html5-brands.svg": "/myportfolio/static/media/html5-brands.29dea89e2b8a416f0196cc468add28ce.svg",
+    "main.bbab8670.css.map": "/myportfolio/static/css/main.bbab8670.css.map",
+    "main.05f34dc7.js.map": "/myportfolio/static/js/main.05f34dc7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbab8670.css",
+    "static/js/main.05f34dc7.js"
+  ]
+}
