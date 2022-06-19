@@ -9,8 +9,13 @@ const ProjectsSection = () => {
     <section id="projects">
       <div className="fluid-container py-28">
         <Title value="Projects" className="mb-16" />
-        <ProjectSlider title="css/scss/javascript" data={sliderData} />
-        <ProjectSlider title="tailwindcss/reactjs" data={sliderData} />
+        <ProjectSlider
+          title="css/scss/javascript"
+          data={sliderData}
+          from="0"
+          to="6"
+        />
+        <ProjectSlider title="reactjs" data={sliderData} from="7" to="8" />
       </div>
     </section>
   );

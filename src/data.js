@@ -102,5 +102,35 @@ const sliderData = [
     aboutProject:
       "Lilianas cake is a redesign of a cake business website that I found online. I this design the content of the website is kept same and only the overall design is changed.",
   },
+  {
+    id: 7,
+    projectName: "Blog website about dogs",
+    langs: ["reactjs", "tailwindcss", "php"],
+    tmbImg: "/projectImages/dogblog-tumb.png",
+    img: [
+      "/projectImages/dogblog-desktop-ss.png",
+      "/projectImages/dogblog-desktop-3-ss.png",
+      "/projectImages/dogblog-desktop-2-ss.png",
+    ],
+    liveLink: "https://www.sonishgowda.gq/dogblogclient/",
+    gitLink: "https://github.com/sonishn213/dogblogfronted",
+    aboutProject:
+      "This is blog website for articles about dog's health,food etc. This website is called as dogblog and contains two pages, home page and all posts page. In the home page, users can view feautured post,latest post and categories. In the all post page, users can view all posts filterd by categorie and they can also sort post as latest and oldest. Click on the title of post to view a post. While reading the blog, users are also shown related posts. This website is built with reactjs and taiwindcss for fronted and Php and mysql for backend. ",
+  },
+  {
+    id: 8,
+    projectName: "Countries info with REST Countries api",
+    langs: ["reactjs", "tailwindcss", "API"],
+    tmbImg: "/projectImages/rest-tumb.png",
+    img: [
+      "/projectImages/rest-desktop-1-ss.png",
+      "/projectImages/rest-desktop-3-ss.png",
+      "/projectImages/rest-desktop-4-ss.png",
+    ],
+    liveLink: "https://sonishn213.github.io/rest-country",
+    gitLink: "https://github.com/sonishn213/rest-country",
+    aboutProject:
+      "This website is for viewing information about various Countries from different continents. Users are able click on country card to view information about a country. Users can also filer countries by continents. Users can search for any countries by name. click on country card to view more info about a country. after clicking users are redirected to information page where users can view details like population, native name, etc., the location of country also is shown on the same page. This website uses Rest countries api to get information of countries and leaflet api to display map",
+  },
 ];
 export default sliderData;

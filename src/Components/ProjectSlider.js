@@ -3,7 +3,7 @@ import { IoMdArrowDropright } from "react-icons/io";
 import { IoMdArrowDropleft } from "react-icons/io";
 
 import ProjectCard from "./ProjectCard";
-const ProjectSlider = ({ title, data }) => {
+const ProjectSlider = ({ title, data, from, to }) => {
   const slideContainerRef = useRef(null);
   const slideSectionRef = useRef(null);
   let containerRight = "";
@@ -82,7 +82,8 @@ const ProjectSlider = ({ title, data }) => {
             ref={slideContainerRef}
           >
             {data.map((item) => {
-              return <ProjectCard key={item.id} data={item} />;
+              if (item.id >= from && item.id <= to)
+                return <ProjectCard key={item.id} data={item} />;
             })}
           </div>
         </div>

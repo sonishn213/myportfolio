@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 
 const ProjectCard = ({ data }) => {
   return (
-    <div className="rounded-2xl overflow-hidden w-72 outline-none shadow-md border-2 border-s-dark-grey flex-shrink-0  ">
+    <div className="rounded-2xl overflow-hidden w-72 outline-none shadow-xl shadow-slate-900/7 border-2 border-s-dark-grey flex-shrink-0  ">
       <div className="w-auto h-64 bg-black  overflow-hidden  ">
         <img
           src={data.tmbImg}
@@ -12,13 +12,13 @@ const ProjectCard = ({ data }) => {
         />
       </div>
       <div className="p-6">
-        <div className="flex flex-wrap space-x-2 mb-5 ">
+        <div className="flex flex-wrap  mb-5 ">
           {data.langs.map((lang) => {
             if (lang.length <= 0) {
               return;
             }
             return (
-              <div className=" text-slate-500 bg-s-dark-grey px-2 rounded-md uppercase">
+              <div className="mr-2 mb-2 text-slate-500 bg-s-dark-grey px-2 rounded-md uppercase">
                 {lang}
               </div>
             );
