@@ -703,6 +703,10 @@ h4 {
   display: flex;
 }
 
+.table {
+  display: table;
+}
+
 .grid {
   display: grid;
 }
@@ -713,6 +717,14 @@ h4 {
 
 .h-64 {
   height: 16rem;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .min-h-full {
@@ -781,6 +793,10 @@ h4 {
 
 .shrink-0 {
   flex-shrink: 0;
+}
+
+.grow {
+  flex-grow: 1;
 }
 
 .transform {
@@ -1042,6 +1058,10 @@ h4 {
 
 .pl-2 {
   padding-left: 0.5rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .text-center {

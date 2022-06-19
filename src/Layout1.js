@@ -12,7 +12,7 @@ function Layout1() {
         <NavbarLink to="#projects">Projects</NavbarLink>
         <NavbarLink to="#aboutme">About me</NavbarLink>
         <NavbarLink to="#contact">Contact</NavbarLink>
-        <NavbarLink to="/">Resume</NavbarLink>
+        <NavbarLink to="/resume">Resume</NavbarLink>
       </Navbar>
       <Outlet />
     </main>
