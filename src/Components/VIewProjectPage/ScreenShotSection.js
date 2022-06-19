@@ -29,7 +29,11 @@ const ScreenShotSection = ({ data }) => {
           </div>
           {/* image goes here */}
           <div className="w-full rounded-lg overflow-hidden order-1 shrink-0 mb-6 md:shrink md:mb-0  md:order-1 bg-slate-200">
-            <img className="max-w-full" src={data[count]} alt="screenshots" />
+            <img
+              className="max-w-full"
+              src={"/myportfolio/" + data[count]}
+              alt="screenshots"
+            />
           </div>
           <div className="flex justify-start md:justify-center items-center pl-2  w-1/2 md:w-auto order-3  md:order-1">
             <div

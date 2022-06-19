@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 
 const ProjectCard = ({ data }) => {
   return (
-    <div className="rounded-2xl overflow-hidden w-72 outline-none shadow-xl shadow-slate-900/7 border-2 border-s-dark-grey flex-shrink-0  ">
+    <div className="rounded-2xl overflow-hidden w-72 outline-none shadow-xl shadow-slate-900/ border-2 border-s-dark-grey flex-shrink-0  ">
       <div className="w-auto h-64 bg-black  overflow-hidden  ">
         <img
-          src={data.tmbImg}
+          src={"/myportfolio/" + data.tmbImg}
           alt={data.projectName}
           className="w-auto min-h-full"
         />
