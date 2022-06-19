@@ -10,8 +10,18 @@ const HeroSection = () => {
           <br /> I’m a Frontend Developer
         </h1>
         <div className=" space-y-4  md:flex md:space-x-4 md:space-y-0 md:justify-center">
-          <Button text="View Projects" color="blue" />
-          <Button text="Contact me" color="white" />
+          <Button
+            text="View Projects"
+            color="blue"
+            link="#projects"
+            target="_self"
+          />
+          <Button
+            text="Contact me"
+            color="white"
+            link="#contact"
+            target="_self"
+          />
         </div>
       </div>
     </section>

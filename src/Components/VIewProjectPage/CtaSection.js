@@ -1,7 +1,7 @@
 import React from "react";
 import Title from "../Title";
 import Button from "../Button";
-const CtaSection = (data) => {
+const CtaSection = ({ data }) => {
   return (
     <section className="bg2 bg-paralax">
       <div className="fluid-container py-28">
