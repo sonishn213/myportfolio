@@ -37,6 +37,14 @@ const Navbar = ({ children }) => {
         {/* desktop navbar */}
         <nav className="fluid-container flex space-x-10  text-lg  text-s-dark-blue cursor-pointer  w-full">
           {children}
+          <a
+            href="https://sonishn213.github.io/myportfolio/resume%20soni.pdf"
+            target="_blank"
+          >
+            <p className="md:py-6 py-2 active:text-s-dark-blue hover:text-s-orange">
+              Resume
+            </p>
+          </a>
         </nav>
       </section>
       <section className="fixed bottom-0 z-30 right-0 md:hidden">
@@ -46,6 +54,14 @@ const Navbar = ({ children }) => {
           className="bg-white shadow-xl mb-16 p-4 pr-8 rounded-lg  "
         >
           {children}
+          <a
+            href="https://sonishn213.github.io/myportfolio/resume%20soni.pdf"
+            target="_blank"
+          >
+            <p className="md:py-6 py-2 active:text-s-dark-blue hover:text-s-orange">
+              Resume
+            </p>
+          </a>
         </nav>
         {/* mobile menu btn */}
         <div className="relative">

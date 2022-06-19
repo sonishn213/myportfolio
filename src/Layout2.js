@@ -17,7 +17,7 @@ function Layout2() {
 
         <NavbarLink to={"/" + id + "#screenshots"}>Screenshots</NavbarLink>
         <NavbarLink to={"/" + id + "#aboutproject"}>About Project</NavbarLink>
-        <NavbarLink to="/resume">Resume</NavbarLink>
+        <NavbarLink to="/resume%20soni.pdf">Resume</NavbarLink>
       </Navbar>
       <Outlet />
     </main>
