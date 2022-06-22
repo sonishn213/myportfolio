@@ -11,7 +11,9 @@ const Contact = () => {
           <p>+91 9632340567</p>
         </div>
         <div className="flex justify-center items-center w-full text-2xl mt-8 cursor-pointer text-s-orange">
-          <FaLinkedin />
+          <a href="https://www.linkedin.com/in/shwanees213/">
+            <FaLinkedin />
+          </a>
         </div>
       </div>
     </section>
